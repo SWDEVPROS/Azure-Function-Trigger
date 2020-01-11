@@ -1,10 +1,10 @@
 {
   "bindings": [
     {
-      "name": "myBlob",
+      "name": "ehs-blob-trigger-function",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "samples-workitems/{name}",
+      "path": "ehsblobcontainerabc12345/{name}",
       "connection": "AzureWebJobsStorage"
     }
   ],
